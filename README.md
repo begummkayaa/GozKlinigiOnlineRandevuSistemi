@@ -21,10 +21,54 @@ Bu proje, hasta ve doktor etkileşimini dijitalleştiren kapsamlı bir randevu y
 
 ## 🛠️ Kullanılan Teknolojiler
 
-* **⚙️ Backend:** ASP.NET Core, Entity Framework Core
-* **🎨 Frontend:** HTML, CSS, JavaScript, Bootstrap
-* **🗃️ Veritabanı:** MS SQL Server
-* **🛡️ Güvenlik:** ASP.NET Core Identity
+### ⚙️ Backend
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose**
+
+**Ek Araçlar:** CORS, Nodemailer, Crypto, Node-fetch
+
+---
+
+### 🎨 Frontend
+- **React**
+- **Axios**
+- **Framer Motion**
+- **FontAwesome**, **Lucide React**
+- **Date-fns**
+
+---
+
+### 🧪 Test ve Geliştirme Araçları
+- **Jest**
+- **React Testing Library**
+- **Webpack**, **Babel**
+- **ESLint**
+- **npm**
+
+---
+
+### 📦 Mimari ve Yapı
+- **MVC Deseni**
+- **Bileşen Tabanlı Mimari (React)**
+- **RESTful API**
+
+---
+
+### 🔒 Güvenlik ve Servisler
+- **Gmail SMTP** (E-posta servisi)
+- **E-posta doğrulama & şifre sıfırlama**
+- **CORS koruması**
+- **Sunucu taraflı girdi doğrulama**
+
+---
+
+### 💻 Geliştirme Ortamı
+- **Create React App**
+- **Yerel Geliştirme Sunucusu:** Express (port 3000)
+- **React Geliştirme Sunucusu:** React (port 3001)
+
 
 ## 🖥️ Kurulum
 
