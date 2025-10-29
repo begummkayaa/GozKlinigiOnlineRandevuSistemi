@@ -76,62 +76,19 @@ Proje, bir monorepo benzeri yapıda randevu-frontend ve randevu-backend olmak ü
 ```bash
 📁 GozKlinigiOnlineRandevuSistemi/
 │
-├── 💻 randevu-backend/                        # 🧠 Sunucu tarafı (Node.js & Express)
-│   ├── 📝 index.js                            # 🚀 Ana sunucu dosyası
-│   ├── 📦 models/                             # 🧩 MongoDB modelleri
-│   │   ├── 📄 appointment.js
-│   │   ├── 📄 appointmentNote.js
-│   │   ├── 📄 doctor.js
-│   │   ├── 📄 holiday.js
-│   │   ├── 📄 mailler.js
-│   │   └── 📄 user.js
-│   ├── 📑 package.json
-│   ├── 📑 package-lock.json
-│   └── 📂 node_modules/
+├── 💻 randevu-backend/              # 🧠 Sunucu tarafı (Node.js & Express)
+│   ├── index.js                     # Ana sunucu dosyası
+│   ├── models/                      # MongoDB modelleri
+│   ├── package.json
+│   └── package-lock.json
 │
-├── 🌐 randevu-frontend/                       # 🎨 İstemci tarafı (React)
-│   ├── 🗃️ public/                             # 🖼️ Statik dosyalar
-│   │   ├── 🧿 favicon.ico
-│   │   ├── 🖼️ images/
-│   │   │   ├── 👨‍⚕️ ahmet_sari.png
-│   │   │   ├── 🌅 background.jpg
-│   │   │   ├── 🌇 background1.jpg
-│   │   │   ├── 🌄 background3.jpg
-│   │   │   ├── 👩‍⚕️ elif_demir.png
-│   │   │   ├── 📊 Genel_Bilgiler.png
-│   │   │   └── 👨‍⚕️ mehmet_yilmaz.png
-│   │   ├── 🎞️ videos/
-│   │   │   └── 🎬 background-video.mp4
-│   │   ├── 🧩 index.html
-│   │   ├── 🧾 manifest.json
-│   │   └── 🤖 robots.txt
-│   │
-│   ├── ⚙️ src/                                # 💅 React kaynak dosyaları
-│   │   ├── 💻 App.js
-│   │   ├── 🎨 App.css
-│   │   ├── 🧱 components/
-│   │   │   ├── ℹ️ About.js / About.css
-│   │   │   ├── ➕ AddDoctorPage.js / AddDoctorPage.css
-│   │   │   ├── 📅 Appointment.js / Appointment.css
-│   │   │   ├── 🕒 AppointmentHistory.js / AppointmentHistory.css
-│   │   │   ├── 🔐 ChangePassword.js / ChangePassword.css
-│   │   │   ├── 👨‍⚕️ DoctorLogin.js
-│   │   │   ├── 🩺 DoctorPanel.js / DoctorPanel.css
-│   │   │   ├── 🔑 ForgotPassword.js / ForgotPassword.css
-│   │   │   ├── 🧭 Header.js / Header.css
-│   │   │   ├── 🏠 Home.js / Home.css
-│   │   │   ├── 👤 Login.js / Login.css
-│   │   │   ├── 🧾 Register.js / Register.css
-│   │   │   ├── ♻️ ResetPassword.js / ResetPassword.css
-│   │   ├── 🪄 index.js
-│   │   ├── 💅 index.css
-│   │   └── 🖼️ logo.svg
-│   ├── 📑 package.json
-│   ├── 📑 package-lock.json
-│   └── 📘 README.md
+├── 🌐 randevu-frontend/             # 🎨 İstemci tarafı (React)
+│   ├── public/                      # Statik dosyalar (görseller, videolar, favicon vb.)
+│   ├── src/                         # React kaynak dosyaları (componentler, stiller, sayfalar)
+│   ├── package.json
+│   └── package-lock.json
 │
-└── 🧾 README.md                              # 📖 Genel proje açıklaması
-
+└── 🧾 README.md                     # 📖 Genel proje açıklaması
 ```
 
 ## 🖥️ Kurulum ve Çalıştırma
